@@ -5,21 +5,24 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Baseball Stats from the 1950s"
-mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = ['1954', '1955', '1956', '1957', '1958', '1959']
-y1_values = [345, 356, 345, 388, 328, 254]
-y2_values = [300, 306, 353, 365, 304, 285]
-y3_values = [280, 314, 328, 322, 326, 355]
-color1 = '#fc9403'
-color2 = '#0307fc'
-color3 = '#9003fc'
-name1 = 'Ted Williams'
-name2 = 'Mickey Mantle'
-name3 = 'Hank Aaron'
-tabtitle = 'baseball'
+myheading = "Consultation Requests Academic Year 2017-2018 & 2018-2019"
+mytitle = "Total case for 4 Major Purposes"
+x_values = ['17 fall', '18 spring', '18 summer', '18 fall', '19 spring', '19 summer']
+y1_values = [17, 15, 12, 30, 52, 33]
+y2_values = [27, 11, 8, 24, 10, 29]
+y3_values = [13, 9, 6, 14, 15, 14]
+y4_values = [9, 5, 11, 10, 15, 10] 
+color1 = '#F1948A'
+color2 = '#34495E'
+color3 = '#F1C40F'
+color4 = '#8E44AD'
+name1 = 'Instructional Design'
+name2 = 'LMS'
+name3 = 'Technology'
+name4 = 'Assessment'
+tabtitle = 'Consultation Case'
 sourceurl = 'https://www.baseball-reference.com'
-githublink = 'https://github.com/austinlasseter/dash-linechart-example'
+githublink = 'https://github.com/caroleonor/dash-linechart-example/edit/master/app.py'
 
 ########### Set up the chart
 
