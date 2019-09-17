@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Consultation Requests Academic Year 2017-2018 & 2018-2019"
+myheading = "Consultation AY 2017-2018 & 2018-2019"
 mytitle = "Total case for 4 Major Purposes"
 x_values = ['17 fall', '18 spring', '18 summer', '18 fall', '19 spring', '19 summer']
 y1_values = [17, 15, 12, 30, 52, 33]
@@ -48,9 +48,16 @@ trace2 = go.Scatter(
     marker = {'color': color3},
     name = name3
 )
+trace3 = go.Scatter(
+    x = x_values,
+    y = y4_values,
+    mode = 'lines',
+    marker = {'color': color4},
+    name = name4
+)
 
 # assign traces to data
-data = [trace0, trace1, trace2]
+data = [trace0, trace1, trace2, trace3]
 layout = go.Layout(
     title = mytitle
 )
